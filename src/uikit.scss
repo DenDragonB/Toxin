@@ -1,0 +1,39 @@
+@import "UIkit/_colors";
+@import "UIkit/_fonts";
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fonts,
+.colors {
+    width: 50%;
+}
+.square {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.color-name,.color-number {
+    padding: 0;
+    margin: 0;
+}
+
+.color-number {
+    font-family: "Montserrat";
+    font-weight: 19px;
+}
+
+.color-name {
+    font-family: "Montserrat Bold";
+    font-weight: 19px;
+}
+
+.item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

@@ -1,0 +1,24 @@
+$font-stack: 'Montserrat';
+$font-stack-bold: 'Montserrat Bold';
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../files/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('../files/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+h1 {font-family: $font-stack-bold;
+    font-weight: 24;
+}
+h2 {font-family: $font-stack-bold;
+    font-weight: 19;
+}
+h3 {font-family: $font-stack-bold;
+    font-weight: 12;
+}
+p {font-family: $font-stack;
+    font-weight: 14;
+}

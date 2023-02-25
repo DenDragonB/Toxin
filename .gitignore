@@ -1,2 +1,5 @@
+# The folder for building the site. 
+dist/
+
 # Dependency directories
 node_modules/
