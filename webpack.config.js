@@ -48,11 +48,18 @@ module.exports = {
             },
             {
                 test: /\.(woff2?|eot|ttf|otf)$/i,
-                type: 'asset/resource',
+                type: "asset/resource",
                 generator: {
                     filename: "assets/fonts/[name].[contenthash:8][ext][query]",
-                  },
                 },
+            },
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: "asset/resource",
+                generator: {
+                    filename: "assets/images/[name].[contenthash:8][ext][query]",
+                },
+            },
         ],
     },
 
